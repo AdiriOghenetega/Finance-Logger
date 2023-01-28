@@ -1,0 +1,46 @@
+header h1{
+    text-align: center;
+}
+#main__form{
+    padding: 4em 0;
+    background-color: gainsboro;
+}
+form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em ;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.5em;
+}
+input{
+    outline: none;
+    border: none;
+}
+button{
+    width: 4em;
+    height: 2em;
+}
+ul{
+    list-style: none;
+    margin:none;
+    padding:none;
+}
+ul li{
+    border:1px solid gray;
+    margin: 1em;
+    padding:1em;
+
+}
+ul li h4{
+    margin: 0;
+    padding:0;
+}
+ul li p{
+    margin:0
+}
